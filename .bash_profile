@@ -34,6 +34,7 @@ fi
 
 alias ls='ls -A --color=auto'
 alias ssh_ali='ssh -p 8080 hc@139.196.195.18'
+alias git_push='echo $GIT_TOKEN; git push'
 export GIT_TOKEN=xxx
 export ALI_HOME=hc@139.196.195.18:/home/hc
 export QQMAILCODE=xxx
